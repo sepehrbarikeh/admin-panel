@@ -65,23 +65,6 @@ public/
   images/               // تصاویر استاتیک
   font/                 // فونت‌های فارسی
 ```
-
-## Responsive Design Notes
-- در `layout.tsx`، meta viewport اضافه شده است:
-  ```html
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  ```
-- برای جلوگیری از زوم خودکار iOS روی ورودی‌ها:
-  ```css
-  html { -webkit-text-size-adjust: 100%; }
-  input, select, textarea { font-size: 16px; }
-  ```
-- صفحات `users`, `projects`, `invoices` به‌روزرسانی شده‌اند:
-  - فواصل و حاشیه‌ها در موبایل فشرده‌تر (`mx-2`, `px-4`)
-  - چیدمان سرآیندها در موبایل ستونی می‌شود (`flex-col`, `gap-3`)
-  - گریدها از 1 ستون در موبایل شروع می‌شوند و در breakpoint ها افزایش می‌یابند
-  - جدول فاکتورها در موبایل داخل ظرف `overflow-x-auto` قرار دارد
-
 ## Development Notes
 - Tailwind v4 در حالت CSS-first استفاده می‌شود؛ at-rule های `@theme` و `@custom-variant` ممکن است برای برخی LSP ها ناشناخته باشد و هشدار بدهد؛ در بیلد Tailwind مشکلی ایجاد نمی‌کند.
 - برای تغییر تم: کوکی `theme` با مقادیر `dark` یا `light` تنظیم می‌شود و کلاس `dark` روی `html` اعمال می‌گردد (فایل `components/nav.tsx`).
@@ -100,5 +83,3 @@ public/
 - بهبود دسترس‌پذیری فرم‌ها (labels, aria-*)
 - تست Cross-browser و بهینه‌سازی عملکرد
 
-## License
-MIT (در صورت نیاز تغییر دهید)
