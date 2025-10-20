@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Admin Dashboard (Next.js)
+
+پنل مدیریت با Next.js (App Router) و TailwindCSS با پشتیبانی کامل از فارسی/RTL، ریسپانسیو برای موبایل/تبلت/دسکتاپ، و صفحاتی مانند کاربران، پروژه‌ها، فاکتورها، ایمیل و چت.
+
+## Stack
+- **Next.js 15+** (App Router)
+- **React 18**
+- **Tailwind CSS v4 (CSS-first)** با `@import "tailwindcss"` و at-rule های سفارشی مانند `@theme`, `@custom-variant`
+- **Headless UI** برای المان‌های تعاملی سبک
+- **Lucide React** برای آیکون‌ها
+- **ECharts** (در دیتابرد/چارت‌ها)
+- **universal-cookie** برای مدیریت تم (Dark/Light)
+- فونت‌های فارسی **Vazir** و **Vazir-Bold** (پوشه `public/font/`)
+
+## Features
+- پشتیبانی کامل RTL (`direction: rtl` در `:root` و کلاس کمکی `.ltr`)
+- تم تاریک/روشن با ذخیره در کوکی
+- سایدبار واکنش‌گرا و ناوبری چسبان
+- صفحات نمونه: `Users`, `Projects`, `Invoices`, `Emails`, `Chats`
+- مدیریت تصاویر ریموت در `next.config.ts` (دامنه‌ها: `randomuser.me`, `random.imagecdn.app`, `logo.clearbit.com`)
 
 ## Getting Started
 
-First, run the development server:
+پیش‌نیاز: Node.js 18+
 
+نصب وابستگی‌ها:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+# یا
+yarn
+# یا
+pnpm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+اجرای توسعه:
+```bash
+npm run dev
+```
+سپس به آدرس http://localhost:3000 بروید.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+بیلد و اجرا:
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+```
+src/
+  app/
+    layout.tsx          // لایه ریشه و وارد کردن CSS سراسری
+    globals.css         // استایل‌های سراسری، RTL، theme variables
+    users/page.tsx      // لیست کارت کاربران (ریسپانسیو)
+    projects/page.tsx   // کارت‌های پروژه با فیلتر/سرچ (ریسپانسیو)
+    invoices/page.tsx   // جدول فاکتورها با اسکرول افقی در موبایل
+    emails/page.tsx     // لیست ایمیل
+    chats/page.tsx      // چت با باکس ورودی چسبان
+  components/
+    nav.tsx             // ناوبری بالای صفحه (sticky)
+    sideBarLayout.tsx   // سایدبار واکنش‌گرا
+    shared/             // کارت‌ها و آیتم‌های مشترک
+  store/                // Zustand stores (tab name, sidebar toggle)
+public/
+  data/                 // داده‌های mock صفحات
+  images/               // تصاویر استاتیک
+  font/                 // فونت‌های فارسی
+```
 
-## Learn More
+## Responsive Design Notes
+- در `layout.tsx`، meta viewport اضافه شده است:
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  ```
+- برای جلوگیری از زوم خودکار iOS روی ورودی‌ها:
+  ```css
+  html { -webkit-text-size-adjust: 100%; }
+  input, select, textarea { font-size: 16px; }
+  ```
+- صفحات `users`, `projects`, `invoices` به‌روزرسانی شده‌اند:
+  - فواصل و حاشیه‌ها در موبایل فشرده‌تر (`mx-2`, `px-4`)
+  - چیدمان سرآیندها در موبایل ستونی می‌شود (`flex-col`, `gap-3`)
+  - گریدها از 1 ستون در موبایل شروع می‌شوند و در breakpoint ها افزایش می‌یابند
+  - جدول فاکتورها در موبایل داخل ظرف `overflow-x-auto` قرار دارد
 
-To learn more about Next.js, take a look at the following resources:
+## Development Notes
+- Tailwind v4 در حالت CSS-first استفاده می‌شود؛ at-rule های `@theme` و `@custom-variant` ممکن است برای برخی LSP ها ناشناخته باشد و هشدار بدهد؛ در بیلد Tailwind مشکلی ایجاد نمی‌کند.
+- برای تغییر تم: کوکی `theme` با مقادیر `dark` یا `light` تنظیم می‌شود و کلاس `dark` روی `html` اعمال می‌گردد (فایل `components/nav.tsx`).
+- جهت RTL به‌صورت سراسری در `:root` تنظیم شده و کلاس `.ltr` برای موارد خاص موجود است.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
+- `dev`: اجرای توسعه
+- `build`: بیلد production
+- `start`: اجرای سرور production بعد از بیلد
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Images & Remote Patterns
+پیکربندی `next.config.ts` برای دامنه‌های خارجی صورتحساب‌ها/آواتارها انجام شده است. در صورت نیاز دامنه جدید اضافه کنید.
 
-## Deploy on Vercel
+## TODO / Roadmap
+- صفحه `tasks` (مسیر `src/app/tasks/page.tsx`) — ایجاد و هماهنگ با طراحی فعلی
+- بهبود دسترس‌پذیری فرم‌ها (labels, aria-*)
+- تست Cross-browser و بهینه‌سازی عملکرد
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT (در صورت نیاز تغییر دهید)
