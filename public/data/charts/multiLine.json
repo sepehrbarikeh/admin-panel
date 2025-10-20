@@ -1,0 +1,14 @@
+[
+      {"month": "January", "Total_Income": 80, "Total_Expenses": 30},
+      {"month": "February", "Total_Income": 80, "Total_Expenses": 35},
+      {"month": "March", "Total_Income": 70, "Total_Expenses": 40},
+      {"month": "April", "Total_Income": 90, "Total_Expenses": 35},
+      {"month": "May", "Total_Income": 80, "Total_Expenses": 35},
+      {"month": "June", "Total_Income": 80, "Total_Expenses": 40},
+      {"month": "July", "Total_Income": 60, "Total_Expenses": 35},
+      {"month": "August", "Total_Income": 50, "Total_Expenses": 30},
+      {"month": "September", "Total_Income": 70, "Total_Expenses": 35},
+      {"month": "October", "Total_Income": 60, "Total_Expenses": 40},
+      {"month": "November", "Total_Income": 80, "Total_Expenses": 35},
+      {"month": "December", "Total_Income": 70, "Total_Expenses": 30}
+    ]

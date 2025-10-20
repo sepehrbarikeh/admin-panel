@@ -1,0 +1,47 @@
+[
+        {
+          "sender": "James",
+          "time": "10:04pm",
+          "message": "Hello! 👋"
+        },
+        {
+          "sender": "You",
+          "time": "10:05pm",
+          "message": "Hey there, how are you doing? Any plans for our upcoming meeting?"
+        },
+        {
+          "sender": "James",
+          "time": "10:08pm",
+          "message": "Sure, everything's good."
+        },
+        {
+          "sender": "You",
+          "time": "10:10pm",
+          "message": "Fantastic! 👍"
+        },
+        {
+          "sender": "James",
+          "time": "10:15pm",
+          "message": "If you're available, let's schedule it for today."
+        },
+        {
+          "sender": "You",
+          "time": "10:16pm",
+          "message": "Absolutely! Just give me a heads up if 2pm suits you."
+        },
+        {
+          "sender": "James",
+          "time": "10:18pm",
+          "message": "Apologies 😔, I've got another meeting at 2pm. Could we possibly shift it to 3pm?"
+        },
+        {
+          "sender": "James",
+          "time": "10:18pm",
+          "message": "If you have a few extra minutes, we could also go over the presentation talk format."
+        },
+        {
+          "sender": "You",
+          "time": "10:19pm",
+          "message": "3pm works for me 👍. Absolutely, let's dive into the presentation format. It'd be fantastic to wrap that up today. I'm attaching last year's format and assets here for reference."
+        }
+      ]

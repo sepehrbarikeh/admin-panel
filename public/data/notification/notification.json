@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "full_name": "مریم حسینی",
+        "username": "maryam.h",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+        "type": "message",
+        "message": "مریم: سلام! می‌تونیم فردا ساعت 11 جلسه داشته باشیم؟",
+        "created_at": "2025-10-09T09:12:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 2,
+        "full_name": "آرش فریدی",
+        "username": "arash.f",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+        "type": "friend_request",
+        "message": "آرش فریدی درخواست دوستی فرستاد.",
+        "created_at": "2025-10-09T07:50:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 3,
+        "full_name": "سارا رضایی",
+        "username": "sara.r",
+        "avatar": "https://randomuser.me/api/portraits/women/33.jpg",
+        "type": "comment",
+        "message": "سارا روی پست شما نظر گذاشت: «عالی بود!»",
+        "created_at": "2025-10-08T20:05:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 4,
+        "full_name": "امیر نظری",
+        "username": "amir.n",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+        "type": "like",
+        "message": "امیر پست شما را لایک کرد.",
+        "created_at": "2025-10-08T18:30:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 5,
+        "full_name": "نرگس کریمی",
+        "username": "narges.k",
+        "avatar": "https://randomuser.me/api/portraits/women/87.jpg",
+        "type": "message",
+        "message": "نرگس: فایل پیوست شد — لطفا بررسی کن.",
+        "created_at": "2025-10-08T16:12:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 6,
+        "full_name": "حسن موسوی",
+        "username": "hassan.m",
+        "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+        "type": "system",
+        "message": "رمز عبور شما با موفقیت تغییر کرد.",
+        "created_at": "2025-10-07T22:45:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 7,
+        "full_name": "زهرا معتمدی",
+        "username": "zehra.m",
+        "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+        "type": "comment",
+        "message": "زهرا: لطفا بخش توضیحات را آپدیت کن.",
+        "created_at": "2025-10-07T14:09:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 8,
+        "full_name": "پویا اسلامی",
+        "username": "pouya.i",
+        "avatar": "https://randomuser.me/api/portraits/men/56.jpg",
+        "type": "like",
+        "message": "پویا روی عکس شما واکنش نشان داد.",
+        "created_at": "2025-10-06T11:20:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 9,
+        "full_name": "لیلا امینی",
+        "username": "leila.a",
+        "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+        "type": "friend_request",
+        "message": "لیلا امینی درخواست دنبال کردن فرستاد.",
+        "created_at": "2025-10-06T09:03:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 10,
+        "full_name": "مهدی کریمی",
+        "username": "mahdi.k",
+        "avatar": "https://randomuser.me/api/portraits/men/68.jpg",
+        "type": "message",
+        "message": "مهدی: لینک جلسه رو در کانال گذاشتم.",
+        "created_at": "2025-10-05T20:55:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 11,
+        "full_name": "الناز یوسفی",
+        "username": "elnaz.y",
+        "avatar": "https://randomuser.me/api/portraits/women/49.jpg",
+        "type": "comment",
+        "message": "الناز: آیا این نسخه نهایی است؟",
+        "created_at": "2025-10-05T17:40:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 12,
+        "full_name": "کیان وحدتی",
+        "username": "kian.v",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "type": "system",
+        "message": "به‌روزرسانی جدید در دسترس است — برای نصب کلیک کنید.",
+        "created_at": "2025-10-04T08:00:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 13,
+        "full_name": "سمن طلایی",
+        "username": "saman.t",
+        "avatar": "https://randomuser.me/api/portraits/men/24.jpg",
+        "type": "like",
+        "message": "سمن پست شما را پسندید.",
+        "created_at": "2025-10-03T21:10:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 14,
+        "full_name": "نورا ملکی",
+        "username": "nora.m",
+        "avatar": "https://randomuser.me/api/portraits/women/66.jpg",
+        "type": "message",
+        "message": "نورا: میشه اسناد را تا عصر ارسال کنی؟",
+        "created_at": "2025-10-03T14:50:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 15,
+        "full_name": "نیما پور جعفری",
+        "username": "nima.pj",
+        "avatar": "https://randomuser.me/api/portraits/men/92.jpg",
+        "type": "comment",
+        "message": "نیما: نقطهٔ جالبی رو گفتی در جلسه‌ی امروز.",
+        "created_at": "2025-10-02T19:30:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 16,
+        "full_name": "فاطمه خسروی",
+        "username": "fatemeh.k",
+        "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+        "type": "friend_request",
+        "message": "فاطمه درخواست دوستی فرستاد.",
+        "created_at": "2025-10-02T10:05:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 17,
+        "full_name": "کامران مرادی",
+        "username": "kamran.m",
+        "avatar": "https://randomuser.me/api/portraits/men/36.jpg",
+        "type": "message",
+        "message": "کامران: گزارش ماهانه آماده است.",
+        "created_at": "2025-10-09T06:05:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 18,
+        "full_name": "میترا رحیمی",
+        "username": "mitra.r",
+        "avatar": "https://randomuser.me/api/portraits/women/39.jpg",
+        "type": "like",
+        "message": "میترا پست شما را لایک کرد.",
+        "created_at": "2025-10-08T12:25:00+02:00",
+        "unread": false
+    },
+    {
+        "id": 19,
+        "full_name": "بابک جلالی",
+        "username": "babak.j",
+        "avatar": "https://randomuser.me/api/portraits/men/58.jpg",
+        "type": "system",
+        "message": "حافظهٔ ذخیره‌سازی شما 80% پر شده است.",
+        "created_at": "2025-10-07T03:15:00+02:00",
+        "unread": true
+    },
+    {
+        "id": 20,
+        "full_name": "راضیه بهرامی",
+        "username": "raziyeh.b",
+        "avatar": "https://randomuser.me/api/portraits/women/77.jpg",
+        "type": "comment",
+        "message": "راضیه: تبریک! پروژه با موفقیت منتشر شد.",
+        "created_at": "2025-10-06T23:40:00+02:00",
+        "unread": false
+    }
+]

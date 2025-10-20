@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "category": "Electronics",
+      "name": "TechNova",
+      "country": "Germany",
+      "established": 2015,
+      "stores": 1200,
+      "products": 15320,
+      "status": "Active",
+      "logo": "../../images/brandlogo/logo-1.svg"
+    },
+    {
+      "id": 2,
+      "category": "Home Decor",
+      "name": "DecoLux",
+      "country": "France",
+      "established": 2000,
+      "stores": 450,
+      "products": 6800,
+      "status": "Pending",
+      "logo": "../../images/brandlogo/logo-2.svg"
+    },
+    {
+      "id": 3,
+      "category": "Technology",
+      "name": "InnovTech",
+      "country": "Japan",
+      "established": 2012,
+      "stores": 850,
+      "products": 12500,
+      "status": "Active",
+      "logo": "../../images/brandlogo/logo-3.svg"
+    },
+    {
+      "id": 4,
+      "category": "Health",
+      "name": "WellCare",
+      "country": "UK",
+      "established": 2008,
+      "stores": 300,
+      "products": 4200,
+      "status": "Active",
+      "logo": "../../images/brandlogo/logo-4.svg"
+    },
+    {
+      "id": 5,
+      "category": "Automotive",
+      "name": "AutoDrive",
+      "country": "USA",
+      "established": 1999,
+      "stores": 600,
+      "products": 8900,
+      "status": "Inactive",
+      "logo": "../../images/brandlogo/logo-5.svg"
+    }
+  ]
+  

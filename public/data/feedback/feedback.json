@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Project Manager",
+      "feedbacks": "80+ Feedbacks",
+      "image": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "role": "UI/UX Designer",
+      "feedbacks": "90+ Feedbacks",
+      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Emily Brown",
+      "role": "Software Engineer",
+      "feedbacks": "100+ Feedbacks",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mark Wilson",
+      "role": "Marketing Specialist",
+      "feedbacks": "70+ Feedbacks",
+      "image": "https://randomuser.me/api/portraits/men/40.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sara Johnson",
+      "role": "Data Analyst",
+      "feedbacks": "50+ Feedbacks",
+      "image": "https://randomuser.me/api/portraits/women/50.jpg"
+    }
+  ]
+  

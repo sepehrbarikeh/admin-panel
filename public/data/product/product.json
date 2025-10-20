@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "productName": "Modern Desk Lamp",
+      "date": "15 April 2024",
+      "price": 45.99,
+      "quantity": 120,
+      "amount": 5518.8,
+      "image": "https://random.imagecdn.app/100/100?lamp"
+    },
+    {
+      "id": 2,
+      "productName": "Vintage Wooden Chair",
+      "date": "10 April 2024",
+      "price": 99.0,
+      "quantity": 80,
+      "amount": 7920.0,
+      "image": "https://random.imagecdn.app/100/100?chair"
+    },
+    {
+      "id": 3,
+      "productName": "Wireless Keyboard",
+      "date": "05 April 2024",
+      "price": 29.99,
+      "quantity": 150,
+      "amount": 4498.5,
+      "image": "https://random.imagecdn.app/100/100?keyboard"
+    },
+    {
+      "id": 4,
+      "productName": "Bluetooth Speaker",
+      "date": "02 April 2024",
+      "price": 65.0,
+      "quantity": 90,
+      "amount": 5850.0,
+      "image": "https://random.imagecdn.app/100/100?speaker"
+    },
+    {
+      "id": 5,
+      "productName": "Classic Table Lamp",
+      "date": "29 March 2024",
+      "price": 42.5,
+      "quantity": 110,
+      "amount": 4675.0,
+      "image": "https://random.imagecdn.app/100/100?light"
+    }
+  ]
+  

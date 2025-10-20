@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "sender": {
+            "name": "Robert C. Lane",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/33.jpg"
+        },
+        "subject": "Invitation For Meeting",
+        "preview": "Good Morning, I hope this email finds you well. I am writing to extra...",
+        "time": "Jan 5, 3:45 PM",
+        "read": true
+    },
+    {
+        "id": 2,
+        "sender": {
+            "name": "Dribbble",
+            "type": "company",
+            "image": "https://logo.clearbit.com/dribbble.com"
+        },
+        "subject": "Become a successful self-taught designer",
+        "preview": "There's no one right way to learn design. In fa...",
+        "time": "Mar 23, 7:30 AM",
+        "read": false
+    },
+    {
+        "id": 3,
+        "sender": {
+            "name": "Darren C. Gollimore",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/34.jpg"
+        },
+        "subject": "Holiday Notice",
+        "preview": "Good Evening, I hope you are doing well. I have a small request.",
+        "time": "Apr 10, 11:55 AM",
+        "read": false
+    },
+    {
+        "id": 4,
+        "sender": {
+            "name": "Mike A. Bell",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/35.jpg"
+        },
+        "subject": "Offer Letter",
+        "preview": "I hope you are doing well. I have a small request. Can you please...",
+        "time": "May 8, 9:45 PM",
+        "read": true
+    },
+    {
+        "id": 5,
+        "sender": {
+            "name": "Benneth C. Rice",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/36.jpg"
+        },
+        "subject": "Apology Letter",
+        "preview": "Thank you for applying. I hope you are doing well. I have a small.",
+        "time": "Jun 16, 6:00 AM",
+        "read": true
+    },
+    {
+        "id": 6,
+        "sender": {
+            "name": "John J. Bowser",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/37.jpg"
+        },
+        "subject": "How to get started on Gitlab",
+        "preview": "We know setting off on a freelancing journey can feel intim...",
+        "time": "Jun 16, 6:00 AM",
+        "read": false
+    },
+    {
+        "id": 7,
+        "sender": {
+            "name": "Jill N. Neal",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/women/33.jpg"
+        },
+        "subject": "Apply For Executive Position",
+        "preview": "I am writing to express my keen interest in the Executive Po...",
+        "time": "Aug 22, 2:35 AM",
+        "read": false
+    },
+    {
+        "id": 8,
+        "sender": {
+            "name": "Instagram",
+            "type": "company",
+            "image": "https://logo.clearbit.com/instagram.com"
+        },
+        "subject": "You have received 2 new followers",
+        "preview": "2 new followers, 1 new collected project, and more at...",
+        "time": "Aug 22, 2:35 AM",
+        "read": true
+    },
+    {
+        "id": 9,
+        "sender": {
+            "name": "Amazon",
+            "type": "company",
+            "image": "https://logo.clearbit.com/amazon.com"
+        },
+        "subject": "Your order is shipped",
+        "preview": "Your order is on the way with tracking...",
+        "time": "Oct 31, 8:00 AM",
+        "read": true
+    },
+    {
+        "id": 10,
+        "sender": {
+            "name": "Jill N. Neel",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/women/34.jpg"
+        },
+        "subject": "Apply For Executive Position",
+        "preview": "I am writing to express my keen interest in the Executive Po...",
+        "time": "Aug 22, 2:35 AM",
+        "read": false
+    },
+    {
+        "id": 11,
+        "sender": {
+            "name": "Instagram",
+            "type": "company",
+            "image": "https://logo.clearbit.com/instagram.com"
+        },
+        "subject": "You have received 2 new followers",
+        "preview": "2 new followers, 1 new collected project, and more at...",
+        "time": "Aug 22, 2:35 AM",
+        "read": true
+    },
+    {
+        "id": 12,
+        "sender": {
+            "name": "Amazon",
+            "type": "company",
+            "image": "https://logo.clearbit.com/amazon.com"
+        },
+        "subject": "Your order is shipped",
+        "preview": "Your order is on the way with tracking...",
+        "time": "Oct 31, 8:00 AM",
+        "read": false
+    },
+    {
+        "id": 13,
+        "sender": {
+            "name": "Alfredo D. Rico",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/39.jpg"
+        },
+        "subject": "Class schedule",
+        "preview": "Your online class will be held on Saturday at 2:30 pm Bangladesh.",
+        "time": "Nov 19, 10:10 PM",
+        "read": true
+    },
+    {
+        "id": 14,
+        "sender": {
+            "name": "Vernon B. Ruffer",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/40.jpg"
+        },
+        "subject": "Invitation to attend our Exclusive Webinar",
+        "preview": "An exclusive webinar will be held on 23 January...",
+        "time": "Dec 25, 12:30 PM",
+        "read": true
+    },
+    {
+        "id": 15,
+        "sender": {
+            "name": "Digital Ocean",
+            "type": "company",
+            "image": "https://logo.clearbit.com/digitalocean.com"
+        },
+        "subject": "Update to Discord's Policies",
+        "preview": "Hey! we wanted to let you know that we are updating our Te...",
+        "time": "Jan 30, 4:50 AM",
+        "read": false
+    },
+    {
+        "id": 16,
+        "sender": {
+            "name": "Linkedin",
+            "type": "company",
+            "image": "https://logo.clearbit.com/linkedin.com"
+        },
+        "subject": "New job similar to UI/UX",
+        "preview": "Jobs similar to UI/UX Designer at St Trinity Property group and s...",
+        "time": "Feb 9, 9:05 PM",
+        "read": true
+    },
+    {
+        "id": 17,
+        "sender": {
+            "name": "George Thomas",
+            "type": "person",
+            "image": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        "subject": "Request For Information",
+        "preview": "I hope you are doing well. I have a small request. Can you please",
+        "time": "May 17, 3:45 PM",
+        "read": false
+    }
+]

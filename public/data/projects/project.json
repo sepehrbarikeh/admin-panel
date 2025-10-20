@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "New Admin Design",
+        "status": "Completed",
+        "category": "WEB DESIGN",
+        "description": "Create a user-friendly e-commerce platform with a sleek design, intuitive navigation, and responsive layouts to enhance..",
+        "questions": 56,
+        "comments": 452,
+        "team": [
+            {
+                "name": "Emma Watson",
+                "profileImage": "https://randomuser.me/api/portraits/women/1.jpg"
+            },
+            {
+                "name": "Noah Jackson",
+                "profileImage": "https://randomuser.me/api/portraits/men/1.jpg"
+            },
+            {
+                "name": "Liam Baker",
+                "profileImage": "https://randomuser.me/api/portraits/men/2.jpg"
+            }
+        ],
+        "progress": 80
+    },
+    {
+        "id": 2,
+        "title": "E-Learning Platform",
+        "status": "Pending",
+        "category": "WEB DESIGN",
+        "description": "Develop a user-friendly platform to deliver online courses, with a focus on accessibility and engagement..",
+        "questions": 28,
+        "comments": 150,
+        "team": [
+            {
+                "name": "Olivia Carter",
+                "profileImage": "https://randomuser.me/api/portraits/women/2.jpg"
+            },
+            {
+                "name": "Ava Johnson",
+                "profileImage": "https://randomuser.me/api/portraits/women/3.jpg"
+            }
+        ],
+        "progress": 45
+    },
+    {
+        "id": 3,
+        "title": "Corporate Website Redesign",
+        "status": "In Progress",
+        "category": "WEB DESIGN",
+        "description": "Enhance the corporate branding with a modern and professional redesign that aligns with business goals..",
+        "questions": 34,
+        "comments": 210,
+        "team": [
+            {
+                "name": "Mason Williams",
+                "profileImage": "https://randomuser.me/api/portraits/men/3.jpg"
+            },
+            {
+                "name": "Sophia Martinez",
+                "profileImage": "https://randomuser.me/api/portraits/women/4.jpg"
+            },
+            {
+                "name": "Ethan Davis",
+                "profileImage": "https://randomuser.me/api/portraits/men/4.jpg"
+            }
+        ],
+        "progress": 60
+    },
+    {
+        "id": 4,
+        "title": "Travel Agency Portal",
+        "status": "Delayed",
+        "category": "WEB DEVELOPMENT",
+        "description": "Design an intuitive portal for a travel agency to manage bookings and provide seamless customer experiences..",
+        "questions": 12,
+        "comments": 98,
+        "team": [
+            {
+                "name": "Paul Halpern",
+                "profileImage": "https://randomuser.me/api/portraits/men/5.jpg"
+            },
+            {
+                "name": "John Adam",
+                "profileImage": "https://randomuser.me/api/portraits/men/6.jpg"
+            }
+        ],
+        "progress": 30
+    },
+    {
+        "id": 5,
+        "title": "Portfolio Website",
+        "status": "In Review",
+        "category": "WEB DESIGN",
+        "description": "Design an elegant and responsive portfolio to showcase creative projects with stunning visuals..",
+        "questions": 12,
+        "comments": 75,
+        "team": [
+            {
+                "name": "Alex Morgan",
+                "profileImage": "https://randomuser.me/api/portraits/men/7.jpg"
+            },
+            {
+                "name": "Sophia Turner",
+                "profileImage": "https://randomuser.me/api/portraits/women/5.jpg"
+            }
+        ],
+        "progress": 90
+    },
+    {
+        "id": 6,
+        "title": "Healthcare Portal",
+        "status": "On Hold",
+        "category": "WEB DESIGN",
+        "description": "Create a healthcare portal offering appointment scheduling, patient records, and responsive communication tools..",
+        "questions": 18,
+        "comments": 102,
+        "team": [
+            {
+                "name": "Emma Watson",
+                "profileImage": "https://randomuser.me/api/portraits/women/1.jpg"
+            },
+            {
+                "name": "Mason Williams",
+                "profileImage": "https://randomuser.me/api/portraits/men/3.jpg"
+            },
+            {
+                "name": "Olivia Carter",
+                "profileImage": "https://randomuser.me/api/portraits/women/2.jpg"
+            }
+        ],
+        "progress": 25
+    }
+]

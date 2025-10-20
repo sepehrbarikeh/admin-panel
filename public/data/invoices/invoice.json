@@ -1,0 +1,102 @@
+[
+    {
+        "invoiceId": "#WA-2026",
+        "category": "Fashion",
+        "createdOn": "2024-04-12",
+        "invoiceTo": "Raul Villa",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+        "amount": "$42,430",
+        "dueDate": "2024-04-12",
+        "status": "Paid"
+    },
+    {
+        "invoiceId": "#WA-2025",
+        "category": "Electronics",
+        "createdOn": "2024-04-14",
+        "invoiceTo": "Fae Sims",
+        "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+        "amount": "$416",
+        "dueDate": "2024-04-24",
+        "status": "Overdue"
+    },
+    {
+        "invoiceId": "#WA-2024",
+        "category": "Mobile Accessories",
+        "createdOn": "2024-04-15",
+        "invoiceTo": "David Roderick",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+        "amount": "$187",
+        "dueDate": "2024-04-25",
+        "status": "Paid"
+    },
+    {
+        "invoiceId": "#WA-2023",
+        "category": "Electronics",
+        "createdOn": "2024-12-06",
+        "invoiceTo": "James Zavel",
+        "avatar": "https://randomuser.me/api/portraits/men/63.jpg",
+        "amount": "$165",
+        "dueDate": "2024-12-14",
+        "status": "Paid"
+    },
+    {
+        "invoiceId": "#WA-2022",
+        "category": "Electronics",
+        "createdOn": "2024-01-01",
+        "invoiceTo": "Denese Martin",
+        "avatar": "https://randomuser.me/api/portraits/women/52.jpg",
+        "amount": "$165",
+        "dueDate": "2024-01-14",
+        "status": "Cancelled"
+    },
+    {
+        "invoiceId": "#WA-2021",
+        "category": "Watches",
+        "createdOn": "2024-12-02",
+        "invoiceTo": "Jack Nunnally",
+        "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
+        "amount": "$192",
+        "dueDate": "2024-12-02",
+        "status": "Overdue"
+    },
+    {
+        "invoiceId": "#WA-2020",
+        "category": "Bags",
+        "createdOn": "2024-05-12",
+        "invoiceTo": "Margaret Shaw",
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "amount": "$159",
+        "dueDate": "2024-05-24",
+        "status": "Paid"
+    },
+    {
+        "invoiceId": "#WA-2019",
+        "category": "Cloth's",
+        "createdOn": "2024-06-21",
+        "invoiceTo": "Anthony Williams",
+        "avatar": "https://randomuser.me/api/portraits/men/19.jpg",
+        "amount": "$259",
+        "dueDate": "2024-07-01",
+        "status": "Cancelled"
+    },
+    {
+        "invoiceId": "#WA-2018",
+        "category": "Sofa",
+        "createdOn": "2024-08-12",
+        "invoiceTo": "Axie Barnes",
+        "avatar": "https://randomuser.me/api/portraits/women/37.jpg",
+        "amount": "$259",
+        "dueDate": "2024-08-28",
+        "status": "Paid"
+    },
+    {
+        "invoiceId": "#WA-2017",
+        "category": "Shoes",
+        "createdOn": "2024-08-08",
+        "invoiceTo": "Glen Morning",
+        "avatar": "https://randomuser.me/api/portraits/men/70.jpg",
+        "amount": "$256",
+        "dueDate": "2024-08-30",
+        "status": "Pending"
+    }
+]
